@@ -1,31 +1,80 @@
 name: skl
 channels:
+- conda-forge
+- anaconda
 - defaults
 dependencies:
+- libgcc=4.8.5=hdbeacc1_10
+- libxgboost=0.60=h8fd8b8a_0
+- numpy=1.12.1=py27h71f5d73_1
+- py-xgboost=0.60=py27np112hf8e804c_0
+- clangdev=4.0.0=default_0
+- icu=58.2=0
+- libiconv=1.15=0
+- libxml2=2.9.7=0
+- lightgbm=2.0.10=py27_0
+- llvmdev=4.0.0=default_0
+- openmp=4.0.0=1
+- xz=5.2.3=0
+- appnope=0.1.0=py27hb466136_0
+- backports=1.0=py27hb4f9756_1
+- backports.functools_lru_cache=1.4=py27h2aca819_1
+- backports.shutil_get_terminal_size=1.0.0=py27hc9115de_2
+- backports_abc=0.5=py27h6972548_0
 - ca-certificates=2017.08.26=ha1e5d58_0
 - certifi=2017.11.5=py27hfa9a1c4_0
+- cycler=0.10.0=py27hfc73c78_0
+- decorator=4.1.2=py27h9f877ea_0
+- enum34=1.1.6=py27hf475452_1
+- freetype=2.8=h12048fb_1
+- functools32=3.2.3.2=py27h8ceab06_1
 - intel-openmp=2018.0.0=h8158457_8
+- ipython=5.4.1=py27h2b3d779_1
+- ipython_genutils=0.2.0=py27h8b9a179_0
 - libcxx=4.0.1=h579ed51_0
 - libcxxabi=4.0.1=hebd6815_0
 - libedit=3.1=hb4e282d_0
 - libffi=3.2.1=h475c297_4
 - libgfortran=3.0.1=h93005f0_2
+- libpng=1.6.32=hd1e8b91_4
+- matplotlib=2.1.1=py27hb768455_0
 - mkl=2018.0.1=hfbd8650_4
 - ncurses=6.0=hd04f020_2
-- numpy=1.14.0=py27h8a80b8c_0
 - openssl=1.0.2n=hdbc3d79_0
 - pandas=0.22.0=py27h0a44026_0
+- pathlib2=2.3.0=py27he09da1e_0
+- pexpect=4.3.1=py27_0
+- pickleshare=0.7.4=py27h37e3d41_0
 - pip=9.0.1=py27h1567d89_4
+- prompt_toolkit=1.0.15=py27h4a7b9c2_0
+- ptyprocess=0.5.2=py27h70f6364_0
+- pygments=2.2.0=py27h1a556bb_0
+- pyparsing=2.2.0=py27h5bb6aaf_0
 - python=2.7.14=hde5916a_29
 - python-dateutil=2.6.1=py27hd56c96b_1
 - pytz=2017.3=py27h803c07a_0
 - readline=7.0=hc1231fa_4
+- scandir=1.6=py27h97aa1ee_0
 - scikit-learn=0.19.1=py27h9788993_0
 - scipy=1.0.0=py27h793f721_0
 - setuptools=38.4.0=py27_0
+- simplegeneric=0.8.1=py27h6db5e31_0
+- singledispatch=3.4.0.3=py27he22c18d_0
 - six=1.11.0=py27h7252ba3_1
 - sqlite=3.20.1=h7e4c145_2
+- ssl_match_hostname=3.5.0.1=py27h8780752_2
+- subprocess32=3.2.7=py27h24b2887_0
 - tk=8.6.7=h35a86e2_3
+- tornado=4.5.3=py27_0
+- traitlets=4.3.2=py27hcf08151_0
+- wcwidth=0.1.7=py27h817c265_0
 - wheel=0.30.0=py27h677a027_1
 - zlib=1.2.11=hf3cbc9b_2
+- pip:
+  - backports-abc==0.5
+  - backports.functools-lru-cache==1.4
+  - backports.shutil-get-terminal-size==1.0.0
+  - backports.ssl-match-hostname==3.5.0.1
+  - ipython-genutils==0.2.0
+  - prompt-toolkit==1.0.15
 

@@ -31,9 +31,10 @@ scs = cross_val_score(svc, X_digits, y_digits, cv=k_fold, scoring='precision_mac
 # you want the search to go through
 cs = np.logspace(-6, -1, 10)
 clf = GridSearchCV(estimator=svc, param_grid=dict(C=cs), n_jobs=-1)
-clf.fit(X_digits[:1000], y_digits[:1000])
+clf.fit(X_digits[:1000], y_digits[:1000])   # the actual grid search happens here
 
-clf.best_score_
-clf.best_estimator_.C
-clf.score(X_digits[1000:], y_digits[1000:])
+clf.best_score_        # best score
+clf.best_estimator_.C  # best estimator i.e. the one with the highest scores on the left-out sets - of the model class
+clf.score(X_digits[1000:], y_digits[1000:])  # out of sample score using the best set of param
+
 
